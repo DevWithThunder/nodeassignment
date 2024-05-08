@@ -1,0 +1,51 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.preview-image {
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-item {
+  margin: 10px;
+}
+
+.image-item img {
+  width: 150px;
+}
+
+.uploadbtn{
+  margin-bottom: 50px;
+}
+
+.sepia-img {
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  filter: sepia(100%);
+}
+
+.grayscale-img {
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  filter: grayscale(100%);
+}
+
+.top-half, .bottom-half {
+  flex: 1; /* Make both halves take equal space */
+}
